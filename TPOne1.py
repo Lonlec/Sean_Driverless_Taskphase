@@ -12,6 +12,6 @@ for word in list_words:
         if ch in ch_dict:
             ch_dict[ch] += 1
         else:
-            ch_dict[ch] = 13
+            ch_dict[ch] = 1
 
 print(ch_dict)
